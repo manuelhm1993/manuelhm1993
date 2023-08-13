@@ -24,7 +24,7 @@
 
 </details>
 
-[^1]: Mi portafolio: https://manuelhm1993.github.io/
+### Mi portafolio: https://manuelhm1993.github.io/
 
 <!--
 **manuelhm1993/manuelhm1993** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
