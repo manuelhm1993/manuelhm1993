@@ -26,7 +26,7 @@
 
 </details>
 
-# Estadísticas Github 📊:
+## Estadísticas Github 📊:
 ![](https://github-readme-stats.vercel.app/api?username=manuelhm1993&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=manuelhm1993&theme=tokyonight&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=manuelhm1993&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
