@@ -1,6 +1,6 @@
 # Ing. en computación desarrollador web laravel, nodejs & react. ☕
 
-## Especialista en el desarrollo de software tanto web como desktop en las mejores tecnologías desde 2018 y dispuesto a servirte.📋📌
+Especialista en el desarrollo de software tanto web como desktop en las mejores tecnologías desde 2018 y dispuesto a servirte.📋📌
 
 ### Mi portafolio 📲💼: https://manuelhm1993.github.io/ 
 
