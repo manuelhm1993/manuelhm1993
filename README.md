@@ -50,7 +50,6 @@ Construyo software que llega a producción. Desde 2018 — 8 años moviendo piez
 ### Estadísticas 📊
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=manuelhm1993&theme=tokyonight&hide_border=false)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=manuelhm1993&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
 
