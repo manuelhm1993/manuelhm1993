@@ -1,11 +1,60 @@
-# Ing. en computación desarrollador web laravel & vue. ☕
+# `<mh/>` Manuel Henríquez
 
-Especialista en el desarrollo de software tanto web como desktop en las mejores tecnologías desde 2018 y dispuesto a servirte.
+**Desarrollador backend Laravel · Python · Automatización**  
+Construyo software que llega a producción. Desde 2018 — 8 años moviendo piezas en el tablero.
 
-### GitHub pages 📋📌: [mh-portafolio](https://manuelhm1993.github.io/) 💼
+🌐 [mhenriquez.com](https://mhenriquez.com) · 🏢 [MHenriquez C.A.](https://github.com/MHenriquezCA) · 📍 Maracaibo, Venezuela
 
-#### Top de tecnologías 💻:
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white)
+---
 
-#### Estadísticas Github 📊:   
-![](https://github-readme-streak-stats.herokuapp.com/?user=manuelhm1993&theme=tokyonight&hide_border=false) ![](https://github-readme-stats.vercel.app/api/top-langs/?username=manuelhm1993&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact) 
+### Stack principal 💻
+
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
+![Livewire](https://img.shields.io/badge/livewire-%234e56a6.svg?style=for-the-badge&logo=livewire&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Alpine.js](https://img.shields.io/badge/alpinejs-white.svg?style=for-the-badge&logo=alpinedotjs&logoColor=%238BC0D0)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+### Capacidades adicionales ⚙️
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+---
+
+<details>
+<summary>Stack por dominio 📈</summary>
+
+| # | Tecnología | Rol |
+|--:|-----------|-----|
+| 1 | **PHP 8.3** | Backend principal |
+| 2 | **Laravel 13** | Framework web |
+| 3 | **Livewire 4** | Componentes reactivos |
+| 4 | **Tailwind CSS v4** | Estilos |
+| 5 | **Alpine.js** | Interactividad cliente |
+| 6 | **MySQL / MariaDB** | Base de datos |
+| 7 | **Python** | Automatización · bots · APIs |
+| 8 | **Node.js** | Tooling y scripts |
+| 9 | **Docker** | Infraestructura VPS |
+| 10 | **Git + GitHub Actions** | CI/CD |
+
+</details>
+
+---
+
+### Estadísticas 📊
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=manuelhm1993&theme=tokyonight&hide_border=false)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=manuelhm1993&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+---
+
+> *En ajedrez, el Rey no es la pieza más poderosa — es la más importante.*  
+> *Cada sistema que construyo protege lo que más le importa al negocio.*
+
+♟ `Ejecución sobre discurso · Responsabilidad técnica · Calidad sin condiciones`
