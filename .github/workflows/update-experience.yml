@@ -2,12 +2,17 @@ name: Actualizar años de experiencia
 
 on:
   schedule:
-    - cron: '0 0 1 1 *'
-  workflow_dispatch:
+    - cron: '0 0 * * *' # Actualiza el gráfico cada 24 horas automáticamente
+  workflow_dispatch: # Permite actualizarlo manualmente
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    
+    # Permiso crucial para que el bot pueda hacer push al repositorio
+    permissions:
+      contents: write 
+
     steps:
       - uses: actions/checkout@v4
 
