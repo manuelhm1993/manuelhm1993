@@ -51,8 +51,6 @@ Construyo software que llega a producción. Desde 2018 — 8 años moviendo piez
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=manuelhm1993&theme=tokyonight&hide_border=false)
 
-![Mi Gráfico de Radar](./profile-summary-card-output/default/0-profile-details.svg)
-
 ---
 
 > *En ajedrez, el Rey no es la pieza más poderosa — es la más importante.*  
