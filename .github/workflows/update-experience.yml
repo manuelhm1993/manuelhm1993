@@ -1,35 +1,23 @@
 name: Actualizar años de experiencia
 
 on:
-  schedule:
-    - cron: '0 0 * * *' # Actualiza el gráfico cada 24 horas automáticamente
-  workflow_dispatch: # Permite actualizarlo manualmente
+  schedule: # Actualiza el gráfico cada 24 horas automáticamente
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Permite actualizarlo manualmente
 
 jobs:
-  update:
-    runs-on: ubuntu-latest
-    
-    # Permiso crucial para que el bot pueda hacer push al repositorio
-    permissions:
-      contents: write 
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
 
-    steps:
-      - uses: actions/checkout@v4
+      - name: Calcular años y actualizar README
+        run: |
+          YEARS=$(( $(date +%Y) - 2018 ))
+          sed -i "s/Desde 2018 — [0-9]\+ años moviendo piezas en el tablero/Desde 2018 — ${YEARS} años moviendo piezas en el tablero/g" README.md
 
-      - name: Generar gráfico de radar
-        uses: vn7n24fzkq/github-profile-summary-cards-action@v1
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          SKIP_IMAGES: false
-
-      - name: Calcular años y actualizar README
-        run: |
-          YEARS=$(( $(date +%Y) - 2018 ))
-          sed -i "s/Desde 2018 — [0-9]\+ años moviendo piezas en el tablero/Desde 2018 — ${YEARS} años moviendo piezas en el tablero/g" README.md
-
-      - name: Commit si hubo cambio
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --quiet --cached || (git commit -m "chore: actualizar años de experiencia y gráfico $(date +%Y)" && git push)
+      - name: Commit si hubo cambio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet && echo "Sin cambios" || (git add README.md && git commit -m "chore: actualizar años de experiencia $(date +%Y)" && git push)
