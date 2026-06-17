@@ -16,6 +16,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Generar gráfico de radar
+        uses: vn7n24fzkq/github-profile-summary-cards-action@v1
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          SKIP_IMAGES: false
+
       - name: Calcular años y actualizar README
         run: |
           YEARS=$(( $(date +%Y) - 2018 ))
@@ -25,4 +31,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet && echo "Sin cambios" || (git add README.md && git commit -m "chore: actualizar años de experiencia $(date +%Y)" && git push)
+          git add -A
+          git diff --quiet --cached || (git commit -m "chore: actualizar años de experiencia y gráfico $(date +%Y)" && git push)
